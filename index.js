@@ -16,8 +16,8 @@ discordClient.once("ready", () => {
 
 discordClient.on("message", async message => {
   if (message.content == config.command) {
-    let sentence = getSentence();
-    message.channel.send(`@${message.author} ${sentence}`);
+    let sentence = getRandomSentence();
+    message.channel.send(`${message.author} ${sentence}`);
   }
 });
 
