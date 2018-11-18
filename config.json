@@ -1,3 +1,10 @@
 {
-    "apiKey": "INSERT-API-KEY-HERE"
+    #Your api key from the discord developer portal
+    "apiKey": "YOUR-API-KEY-HERE",
+
+    #The sentences that the bot replies with
+    "sentences":[
+        "EXAMPLE-SENTENCE-1",
+        "EXAMPLE-SENTENCE-2"
+    ]
 }
