@@ -1,4 +1,7 @@
 const Discord = require("discord.js");
+const fs = require("fs");
+
+const config = JSON.parse(fs.readFileSync("./config.json"));
 
 const discordClient = new Discord.Client();
 
@@ -32,3 +35,5 @@ discordClient.on("message", async message => {
     }
   }
 });
+
+discordClient.login(config.apiKey);
