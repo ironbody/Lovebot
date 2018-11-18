@@ -1,7 +1,7 @@
 {
     "apiKey": "YOUR-API-KEY-HERE",
-
-    "sentences":[
+    "command": "!love",
+    "sentences": [
         "EXAMPLE-SENTENCE-1",
         "EXAMPLE-SENTENCE-2"
     ]
